@@ -1,0 +1,52 @@
+:root {
+    /* font-size */
+    --fs-18: 18px;
+    --fs-48: 48px;
+    --fs-20: 20px;
+    --fs-36: 36px;
+    --fs-24: 24px;
+    /* color */
+    --black: black;
+    --white: white;
+    --clr-fd: #FDD3D2;
+    --ft-para:#4D4813;
+    --copy-clr: #4A4400;
+    --bs-accordion-active-color:black;
+}
+.bs-accordion-active-color{
+    color: black;
+}
+.copy-clr{
+    color: var(--copy-clr);
+}
+.ft-para{
+    color: var(--ft-para);
+}
+.clr-fd{
+    color: var(--clr-fd);
+}
+.black{
+    color: var(--black);
+}
+.white{
+    color: var(--white);
+}
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
