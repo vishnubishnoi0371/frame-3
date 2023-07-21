@@ -7,7 +7,7 @@
     list-style-type: none;
     box-sizing: border-box;
     text-decoration: none !important;
-  
+
 }
 
 .container {
@@ -106,7 +106,7 @@
 }
 
 .pb-80 {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .menu-btn {
@@ -120,6 +120,12 @@
 
 .last-logo {
     max-width: 100%;
+}
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .head:hover {
@@ -145,7 +151,7 @@
 }
 
 .faq {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -192,6 +198,9 @@
     font-style: normal;
     font-weight: 500;
     border: 2px solid #F4241E;
+}
+.discover:hover{
+
 }
 
 .supply {
@@ -423,7 +432,7 @@
 
 .burgerlft1 {
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 25%;
 }
 
@@ -435,7 +444,7 @@
 
 .burgerryt {
     position: absolute;
-    top: 50%;
+    top: 48%;
     right: 25%;
 }
 
@@ -532,6 +541,22 @@
     font-weight: 400;
 }
 
+.wallet {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ftcontainer {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
 .accordion-button:focus {
     border-color: none !important;
     box-shadow: none !important;
@@ -542,7 +567,7 @@
 }
 
 .accordion-item {
-    border: 2px solid #FFF03F !important;
+    border: 0px solid #FFF03F !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -618,18 +643,19 @@
     }
 
     .timelinecontainer::after {
-      
+
         top: 16px;
-        
+
     }
+
     .timeline::after {
-     top: 33px;
+        top: 33px;
     }
 }
 
 @media (min-width:576px) {
     .mt-25 {
-        margin-top: 0;
+        margin-top: 0px;
     }
 
     .pt-30 {
@@ -647,6 +673,7 @@
     .open-logo {
         width: 30%;
     }
+
     .open-logo {
         transform: translateY(-56px) !important;
     }
@@ -662,17 +689,23 @@
     .fs-24 {
         font-size: var(--fs-24);
     }
+
     .timelinecontainer::after {
-      
+
         top: 206px;
     }
+
     .timeline::after {
         top: 216px;
-       }
+    }
 
 }
-
-@media (max-width:768px) {
+@media (min-width:576px) {
+    .open-logo{
+        transform: translateY(-40px) !important;
+    }
+}
+@media (max-width:576px) {
 
 
     .timeline::after {
@@ -683,27 +716,18 @@
     }
 
     .timelinecontainer {
-        padding: 10px 40px;
-        position: relative;
         width: 100%;
     }
 
     .timelinecontainer1 {
-        padding: 10px 40px;
-        position: relative;
         width: 100%;
     }
 
     .timelinecontainer2 {
-        padding: 10px 40px;
-        position: relative;
         width: 100%;
     }
 
     .timelinecontainer::before {
-        border: medium solid #FFF;
-        background-color: #FFF;
-        border-width: 10px 10px 10px 0;
         left: 60px;
     }
 
