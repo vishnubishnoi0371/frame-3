@@ -10,14 +10,7 @@
 
 }
 
-.container {
-    max-width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
 
-}
 
 .fonts {
     font-family: 'Poppins', sans-serif;
@@ -147,7 +140,7 @@
 .dis-butn {
     border-radius: 10px;
     background: var(--red, #F4241E);
-    padding: 15px 32px;
+    padding: 12px 32px;
 }
 
 .faq {
@@ -157,23 +150,6 @@
     line-height: normal;
 }
 
-.col-6 {
-    width: 50%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.col-3 {
-    width: 25%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
-.col-12 {
-    width: 100%;
-    padding-left: 12px;
-    padding-right: 12px;
-}
 
 .welcome {
     font-family: 'Poppins', sans-serif;
@@ -198,9 +174,6 @@
     font-style: normal;
     font-weight: 500;
     border: 2px solid #F4241E;
-}
-.discover:hover{
-
 }
 
 .supply {
@@ -361,7 +334,9 @@
 .gap-30 {
     gap: 30px;
 }
-
+.mb-15{
+    margin-bottom: 15px;
+}
 .mt-40 {
     margin-top: 40px;
 }
@@ -549,7 +524,7 @@
 }
 
 .ftcontainer {
-    max-width: 920px;
+    max-width: 920px !important;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -564,6 +539,7 @@
 
 .accordion {
     border: none !important;
+
 }
 
 .accordion-item {

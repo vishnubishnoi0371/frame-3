@@ -9,28 +9,38 @@
     --black: black;
     --white: white;
     --clr-fd: #FDD3D2;
-    --ft-para:#4D4813;
+    --ft-para: #4D4813;
     --copy-clr: #4A4400;
-    --bs-accordion-active-color:black;
+    --bs-accordion-active-color: black;
+    --bs-accordion-border-color: #FFF30F;
 }
-.bs-accordion-active-color{
+
+.bs-accordion-active-color {
     color: black;
 }
-.copy-clr{
+
+.bs-accordion-border-color { color: var(--bs-border-color);}
+
+.copy-clr {
     color: var(--copy-clr);
 }
-.ft-para{
+
+.ft-para {
     color: var(--ft-para);
 }
-.clr-fd{
+
+.clr-fd {
     color: var(--clr-fd);
 }
-.black{
+
+.black {
     color: var(--black);
 }
-.white{
+
+.white {
     color: var(--white);
 }
+
 .fs-18 {
     font-size: var(--fs-18);
 }
